@@ -94,7 +94,9 @@ ul{
     color:#FFF;
 }
 
-
+.menu_icon{
+    display: none;
+}
 
 /* hero_section */
 
@@ -566,6 +568,39 @@ ul{
         padding-right: 20px;
     }
 
+    /* header_section */
+
+
+    .navbar,.registration {
+        display: none;
+    }
+    .header{
+        align-items: center;
+    }
+    .menu_icon{
+        display: block;
+        height: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .hero_section{
         padding-top: 50px;
         padding-bottom: 50px;
@@ -691,9 +726,6 @@ ul{
     }
 
 
-
-
-
     .device_content{
         flex-direction: column;
     }
@@ -706,16 +738,14 @@ ul{
         width: 100%;
     }
 
-
-
     .device_right_title{
         text-align: left;
     }
 
     .new_comapny_logo{
-        display: none;
+        /* display: none; */
     }
-
+    
 }
 
 

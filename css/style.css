@@ -528,6 +528,228 @@ ul{
 }
 
 
+.caring_section{
+    padding-top: 48px;
+    padding-bottom: 174px;
+}
+
+.carring_sec_title{
+    color: var(--praimary-color);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.carring_sec_sub_title{
+    text-align: center;
+    max-width: 628px;
+    margin: auto;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.caring_section_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:24px;
+}
+
+.caring_section_card{
+    position: relative;
+}
+
+.caring_section_card_content{
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+    padding: 16px;
+    position: absolute;
+    top:190px;
+    left: 0;
+    right:0;
+    margin: auto;
+    max-width: 85%;
+}
+.caring_card_title{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--seondary-color);
+    margin-bottom: 16px;
+}
+
+.caring_read_more_button{
+    text-align: center;
+    color: #4CAF4F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 8px;
+}
+
+.right_arrow_img{
+    display: inline;
+    margin-left: 8px;
+}
+
+.caring_card_img{
+    width: 100%;
+}
+
+
+/* suscipit section */
+
+
+.suscipit_section{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #F5F7FA;
+}
+
+.suscipit_title{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+    color: var(--praimary-color);
+    text-align: center;
+    max-width: 887px;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.get_a_demo_button{
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    width:fit-content;
+    margin: auto;
+    color:#FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* footer_section  */
+
+.footer_section{
+    padding-top: 64px;
+    background-color: #263238;
+    padding-bottom: 64px;
+}
+
+.footer_section_content{
+    justify-content: space-between;
+}
+
+
+.left_footer_section{
+    width:30%;
+    /* border: 1px solid black; */
+}
+
+.right_footer_section{
+    width: 60%;
+    /* border: 1px solid blue; */
+}
+
+.footer_logo{
+    gap:9.89px;
+    margin-bottom: 40px;
+}
+
+.copy_right{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #F5F7FA;
+    margin-bottom: 8px;
+}
+
+.all_rights{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;  
+    color: #F5F7FA;
+}
+
+.social_media_logo{
+    gap: 16px;
+}
+
+.right_footer_section{
+    gap:30px;
+}
+.company_info{
+    width: 25%;
+    /* border: 1px solid white; */
+}
+
+.support_section{
+    width: 25%;
+    /* border: 1px solid white; */
+}
+
+.stay_up_to_date{
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+.footer_title{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+
+.footer_items{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 20px;
+    color: #F5F7FA;
+    margin-bottom: 12px;
+}
+
+.email_address{
+    border-radius: 8px;
+    padding: 9px 12px;
+    background-color: #515b60;
+    justify-content: space-between;
+    padding: 9px 12px;
+}   
+
+.email_address_input{
+    background-color: #515b60;
+    border: none;
+    color: #D9DBE1;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+
+
+
 
 
 
@@ -583,24 +805,6 @@ ul{
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .hero_section{
         padding-top: 50px;
         padding-bottom: 50px;
@@ -649,8 +853,9 @@ ul{
     }
 
     .pixelgrade_section{
-        flex-direction: column;
-        align-items: flex-start;
+        /* flex-direction: column;
+        align-items: flex-start; */
+        flex-wrap: wrap;
     }
 
     .pixelgrade_left_section{
@@ -705,8 +910,9 @@ ul{
     /* site_footer_section */
     
     .site_footer_content{
-        flex-direction: column;
-        gap:25px;
+        /* flex-direction: column;
+        gap:25px; */
+        flex-wrap: wrap;
     }
 
     .left_site_footer{
@@ -721,10 +927,7 @@ ul{
         text-align: center;
     }
 
-    .site_footer_content{
-        text-align: center;
-    }
-
+    
 
     .device_content{
         flex-direction: column;
@@ -744,7 +947,97 @@ ul{
 
     .new_comapny_logo{
         /* display: none; */
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 15px;
     }
+
+
+
+    /* caring_section */
+
+    .caring_section{
+        padding-bottom: 48px;
+    }
+    .caring_section_cards{
+        grid-template-columns: 1fr;
+    }
+
+    .caring_card_img{
+        width: 100%;
+    }
+
+    .caring_section_card_content{
+        top:52%;
+        max-width: 90%;
+    }
+
+    .caring_section_card_img{
+        padding-bottom: 100px;
+    }
+
+    .suscipit_title{
+        font-size: 50px;
+    }
+
+
+    /* footer_section  */
+
+    .footer_section_content{
+        /* border: 1px solid blue; */
+        flex-wrap: wrap;
+    }
+
+    .left_footer_section{
+        width: 100%;
+    }
+    .footer_section_content{
+        gap : 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer_logo{
+        justify-content: center;
+    }
+    .copy_right{
+        text-align: center;
+    }
+    .all_rights{
+        text-align: center;
+    }
+
+    .social_media_logo{
+        justify-content: center;
+    }
+
+    .right_footer_section{
+        width: 100%;
+        flex-direction: column;
+        /* border: 10px solid red; */
+        justify-content: center;
+    }
+    
+    .company_info{
+        width: 100%;
+    }
+
+    .support_section{
+        width: 100%;
+    }
+
+    .footer_title{
+        text-align: center;
+    }
+
+    .footer_items{
+        text-align: center;
+    }
+
+    .stay_up_to_date{
+        width: 100%;
+    }
+
     
 }
 
